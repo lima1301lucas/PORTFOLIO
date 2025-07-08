@@ -1,6 +1,7 @@
 import './App.css'
 import Loading from './components/Loading/Loading.jsx'
 import MainContent from './components/MainContent/MainContent.jsx';
+import Menu from './components/Menu/Menu.jsx';
 import { useState, useEffect } from "react";
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <>
-      {loading ? (<Loading fadeOut={fadeOut} />) : (<MainContent />)}
+      {loading ? (<Loading fadeOut={fadeOut} />) : (<Menu />)}
     </>
   );
 }
