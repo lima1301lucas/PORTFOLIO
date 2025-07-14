@@ -1,0 +1,148 @@
+$bg: #bbbbbb;
+$text: #fff;
+$accent: #0070F3;
+
+.menu {
+  background-color: $bg;
+  color: $text;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0rem 3rem 0rem;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu::before {
+  display: block;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('/src/assets/textures/light.png');
+  background-repeat: repeat;
+  background-size: auto;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.menu * {
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  visibility: hidden !important;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.menu-header button {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: 80% 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-en {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Antonio", sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  color: $text;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  padding-bottom: 1px;
+}
+
+.btn-theme {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80% 80%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  background-image: url('../../assets/icons/light/moon.svg');
+}
+
+.btn-close {
+  background-image: url('../../assets/icons/light/close.svg');
+}
+
+.menu-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.menu-nav li {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.menu-nav li span {
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    color: $accent;
+  }
+}
+
+.menu-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px) scale(1.05);
+  }
+}
+
+.linkedin {
+  background-image: url('../../assets/icons/light/linkedin.svg');
+}
+
+.github {
+  background-image: url('../../assets/icons/light/github.svg');
+}
+
+.behance {
+  background-image: url('../../assets/icons/light/behance.svg');
+}
+
+.devto {
+  background-image: url('../../assets/icons/light/devto.svg');
+}

@@ -3,5 +3,13 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Antonio", sans-serif;
+  font-family: 'Antonio', sans-serif;
+}
+
+.container {
+  width: 95vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
