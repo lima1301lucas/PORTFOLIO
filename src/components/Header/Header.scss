@@ -61,7 +61,7 @@ body.light{
     background-image: url('/src/assets/icons/light/grid.svg');
   }
   .lang-btn {
-    color: $light-gray;
+    color: $gray-tone-400;
   }
 }
 
@@ -74,6 +74,6 @@ body.dark {
     background-image: url('/src/assets/icons/dark/grid.svg');
   }
   .lang-btn {
-    color: $dark-gray;
+    color: $gray-tone-200;
   }
 }
