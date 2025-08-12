@@ -1,0 +1,74 @@
+@import '../../styles/variables.scss';
+
+.header-content {
+  display: flex;
+  align-items: center;       
+  justify-content: space-between; 
+  height: 8vh;
+}
+
+.logo > img{
+  width: 100px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  :hover{
+    cursor: pointer;
+  }
+}
+
+.lang-btn {
+  height: 35px;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  font-weight: 100;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+
+  p {
+    font-size: 2rem;
+    margin: 0;
+    line-height: 1;
+  }
+}
+
+.theme-btn, .menu-btn {
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border: none;
+  background-color: transparent;
+}
+
+body.light{
+  .theme-btn {
+    background-image: url('/src/assets/icons/light/moon.svg');
+  }
+  .menu-btn {
+    background-image: url('/src/assets/icons/light/grid.svg');
+  }
+  .lang-btn {
+    color: $light-gray;
+  }
+}
+
+body.dark {
+  .theme-btn{
+    background-image: url('/src/assets/icons/dark/sun.svg');
+  }
+  .menu-btn {
+    height: 40px;
+    background-image: url('/src/assets/icons/dark/grid.svg');
+  }
+  .lang-btn {
+    color: $dark-gray;
+  }
+}

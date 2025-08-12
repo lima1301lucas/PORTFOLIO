@@ -23,3 +23,11 @@ body.dark {
   background-size: auto;
   background-position: top left;
 }
+
+.container {
+  width: 95vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 1.5rem 3rem;
+  box-sizing: border-box;
+}
