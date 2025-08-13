@@ -2,7 +2,7 @@ import {useLanguage} from '../../context/LanguageContext';
 import { useHeaderControls } from '../../hooks/useHeaderControls';
 import '../Header/Header.scss';
 
-function Header({ onMenuToggle }) {
+function Header({}) {
   const { language, toggleLanguage, toggleTheme } = useHeaderControls();
 
   return (
@@ -13,7 +13,8 @@ function Header({ onMenuToggle }) {
           <div className="buttons">
             <button onClick={toggleLanguage} className="lang-btn"><p>{language}</p></button>
             <button onClick={toggleTheme} aria-label="Toggle theme" className="theme-btn" />
-            <button onClick={onMenuToggle} aria-label="Open menu" className="menu-btn" />
+            <button aria-label="Open menu" className="menu-btn" />
+            <button aria-label="Close menu" className="close-btn" />
           </div>
         </div>
       </div>
