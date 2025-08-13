@@ -6,7 +6,6 @@ function Menu() {
     <section>
       <nav className="menu">
         <Header />
-
         <ul className="menu-nav">
           <li><span>HOME</span></li>
           <li><span>SOBRE MIM</span></li>
@@ -15,7 +14,6 @@ function Menu() {
           <li><span>PROJETOS</span></li>
           <li><span>CONTATO</span></li>
         </ul>
-
         <div className="menu-social">
           <a className="icon linkedin" href="https://www.linkedin.com/in/lucas-lima-1301/" target="_blank" rel="noopener noreferrer"></a>
           <a className="icon github" href="https://github.com/lima1301lucas" target="_blank" rel="noopener noreferrer"></a>

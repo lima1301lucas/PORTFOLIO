@@ -1,10 +1,5 @@
 @import '../../styles/variables.scss';
 
-
-.logo{
-  visibility: hidden;
-}
-
 .menu {
   display: flex;
   flex-direction: column;
@@ -82,6 +77,18 @@ body.light {
   .menu {
     background-color: $gray-tone-200;
     background-image: url('/src/assets/textures/light.png');
+
+    .lang-btn {
+      color: $white;
+    }
+  
+    .theme-btn {
+      background-image: url('/src/assets/icons/light/moon-menu.svg');
+    }
+
+    .menu-btn {
+      background-image: url('/src/assets/icons/light/grid.svg');
+    }
   }
 
   .menu-nav li {
@@ -97,6 +104,10 @@ body.dark {
   .menu {
     background-color: $gray-tone-500;
     background-image: url('/src/assets/textures/dark.png');
+
+    .menu-btn {
+      background-image: url('/src/assets/icons/dark/close.svg');
+    }
   }
 
   .menu-nav li span:hover {

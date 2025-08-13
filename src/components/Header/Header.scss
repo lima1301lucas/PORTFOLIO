@@ -22,7 +22,7 @@
 }
 
 .lang-btn {
-  height: 30px;
+  height: auto;
   display: flex;
   align-items: end;
   justify-content: center;
@@ -38,7 +38,7 @@
   }
 }
 
-.theme-btn, .menu-btn {
+.theme-btn, .menu-btn, .close-btn{ 
   width: 35px;
   height: 35px;
   background-repeat: no-repeat;
@@ -46,11 +46,6 @@
   background-size: contain;
   border: none;
   background-color: transparent;
-}
-
-.menu-btn {
-  width: 30px;
-  height: 30px;
 }
 
 body.light{
@@ -63,6 +58,9 @@ body.light{
   .lang-btn {
     color: $gray-tone-400;
   }
+  .close-btn {
+    background-image: url('/src/assets/icons/light/close.svg');
+  }
 }
 
 body.dark {
@@ -70,10 +68,12 @@ body.dark {
     background-image: url('/src/assets/icons/dark/sun.svg');
   }
   .menu-btn {
-    height: 40px;
     background-image: url('/src/assets/icons/dark/grid.svg');
   }
   .lang-btn {
     color: $gray-tone-200;
+  }
+  .close-btn {
+    background-image: url('/src/assets/icons/dark/close.svg');
   }
 }
