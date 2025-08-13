@@ -9,6 +9,10 @@
   background-repeat: repeat;
   background-size: auto;
   background-position: top left;
+
+  .logo{
+    visibility: hidden !important;
+  }
 }
 
 .menu-nav {
@@ -106,7 +110,7 @@ body.dark {
     background-image: url('/src/assets/textures/dark.png');
 
     .menu-btn {
-      background-image: url('/src/assets/icons/dark/close.svg');
+      background-image: url('/src/assets/icons/dark/grid.svg');
     }
   }
 
