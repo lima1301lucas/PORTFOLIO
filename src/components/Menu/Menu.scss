@@ -1,0 +1,118 @@
+@import '../../styles/variables.scss';
+
+
+.logo{
+  visibility: hidden;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  background-repeat: repeat;
+  background-size: auto;
+  background-position: top left;
+}
+
+.menu-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.menu-nav li {
+  font-size: 4em;
+  font-weight: bold;
+  color: $gray-tone-200; 
+}
+
+.menu-nav li span {
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.menu-nav li span:hover {
+  transform: scale(1.1);
+  color: $primary-blue; 
+}
+
+.menu-social {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: translateY(-5px) scale(1.05);
+}
+
+.linkedin {
+  background-image: url('../../assets/icons/light/linkedin.svg');
+}
+.github {
+  background-image: url('../../assets/icons/light/github.svg');
+}
+.behance {
+  background-image: url('../../assets/icons/light/behance.svg');
+}
+.devto {
+  background-image: url('../../assets/icons/light/devto.svg');
+}
+
+body.light {
+  .menu {
+    background-color: $gray-tone-200;
+    background-image: url('/src/assets/textures/light.png');
+  }
+
+  .menu-nav li {
+    color: $white; 
+  }
+
+  .menu-nav li span:hover {
+    color: $primary-blue;
+  }
+}
+
+body.dark {
+  .menu {
+    background-color: $gray-tone-500;
+    background-image: url('/src/assets/textures/dark.png');
+  }
+
+  .menu-nav li span:hover {
+    color: $primary-orange;
+  }
+
+  .linkedin {
+    background-image: url('../../assets/icons/dark/linkedin.svg');
+  }
+  .github {
+    background-image: url('../../assets/icons/dark/github.svg');
+  }
+  .behance {
+    background-image: url('../../assets/icons/dark/behance.svg');
+  }
+  .devto {
+    background-image: url('../../assets/icons/dark/devto.svg');
+  }
+}
