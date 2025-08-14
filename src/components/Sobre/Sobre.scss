@@ -1,0 +1,137 @@
+@import '../../styles/variables.scss';
+
+.sobre-content{
+    width: 75vw;
+    height: auto;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: flex-start;
+}
+
+.title{
+  width: 100%;
+  height: 10%;
+  margin: 1rem 0 2rem;
+
+  h1{
+    font-size: 3rem;
+    text-align: center;
+    color: $gray-tone-600;
+  }
+}
+
+.sobre-left {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  .polaroid {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/src/assets/images/polaroids-light.png'); 
+    background-size: cover;     
+    background-position: center;  
+    background-repeat: no-repeat;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.sobre-right {
+  width: 45%;
+  height: 90%;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    width: 100%;         
+    margin: 0.5rem 0;
+    white-space: pre-wrap;
+    line-height: 1.5;
+    color: $gray-tone-400;
+  }
+
+  .acoes {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+
+    button {
+      width: 200px;
+      height: 50px;
+      display: flex;
+      align-items: baseline;
+      justify-content: center;
+      gap: 0.8rem;
+      padding: 0.5rem 1rem;
+      font-size: 1.5rem;
+      color: $gray-tone-400;
+      border: 1px solid $gray-tone-400;
+      background: transparent;
+      cursor: pointer;
+      border-radius: $border-radius;
+      transition: all 0.3s ease;
+
+
+      &.btn-instagram::before {
+        content: '';
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        background-image: url('../../assets/icons/light/instagram.svg');
+        background-size: cover;
+      }
+
+      &.btn-download::before {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../assets/icons/light/download.svg');
+        background-size: cover;
+      }
+    }
+  }
+}
+
+body.dark{
+  h1 {
+    color: $gray-tone-200;
+  }
+
+  .sobre-left {
+    .polaroid {
+      background-image: url('/src/assets/images/polaroids-dark.png'); 
+    }
+  }
+  
+  p {
+    color: $gray-tone-200;
+  }
+  
+  .acoes{
+    button {
+      color: $gray-tone-200;
+      border: 1px solid $gray-tone-200;
+        
+      &.btn-instagram::before {
+        background-image: url('../../assets/icons/dark/instagram.svg');
+      }
+      &.btn-download::before {
+        background-image: url('../../assets/icons/dark/download.svg');
+      }
+    }
+  }
+}

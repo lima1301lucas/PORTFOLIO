@@ -5,7 +5,7 @@ function Apresentacao() {
   return (
     <>
       <Header />
-      <section className="apresentacao">
+      <section id="apresentacao" className="apresentacao">
         <div className="container">
           <div className="apresentacao-content">
             <div className="apresentacao-left">
