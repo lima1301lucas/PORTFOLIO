@@ -1,0 +1,198 @@
+@import '../../styles/variables.scss';
+
+.apresentacao-content{
+    width: 75vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: flex-start;
+}
+
+.apresentacao-left {
+  width: 60%;
+  height: 90%;
+  color: $gray-tone-500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: $spacing-base * 2;
+
+  h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    font-weight: 700;
+
+    .highlight {
+      color: $primary-blue;
+    }
+  }
+
+  .botoes {
+    display: flex;
+    gap: 2rem;
+
+    button {
+      height: auto;
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      background: transparent;
+      border: none;
+      color: $gray-tone-500;
+      font-size: 1.5rem;
+      cursor: pointer;
+
+      span.icon-arrow {
+        display: inline-block;
+        width: 20px;  
+        height: 20px;
+        background-image: url('/src/assets/icons/light/arrow-right.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        transform: translateX(4px);
+      }
+    }
+  }
+
+  .redes-sociais {
+    display: flex;
+    gap: $spacing-base;
+
+    a {
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      cursor: pointer;
+
+      &.icon-linkedin {
+        background-image: url('/src/assets/icons/light/linkedin-gray.svg'); 
+      }
+
+      &.icon-github {
+        background-image: url('/src/assets/icons/light/github-gray.svg'); 
+      }
+
+      &.icon-behance {
+        background-image: url('/src/assets/icons/light/behance-gray.svg'); 
+      }
+
+      &.icon-devto {
+        background-image: url('/src/assets/icons/light/devto-gray.svg'); 
+      }
+
+      &:hover {
+        opacity: 0.8;
+        transform: scale(1.1);
+        transition: all 0.3s ease;
+      }
+    }
+  }
+}
+
+.apresentacao-right {
+  width: 40%;
+  height: 90%;
+  display: flex;
+  justify-content: left;
+  align-items: start;
+
+  .foto-animada {
+    width: 70%;
+    height: 90%;
+    background-image: url('/src/assets/images/home_animation.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 250px;
+  }
+}
+
+.scroll-indicator{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    flex-direction: column; 
+    justify-content: end; 
+    align-items: center; 
+    gap: 0.25rem; 
+
+  .icon-mouse {
+    width: 16px;
+    height: 30px;
+    background-image: url('/src/assets/icons/light/scroll.svg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .icon-down {
+    width: 16px;
+    height: 16px;
+    background-image: url('/src/assets/icons/light/arrow-down.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation: bounce 1s infinite; 
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+body.dark {
+  .apresentacao-left {
+      color: $gray-tone-200;
+  
+      .highlight {
+          color: $primary-orange;
+      }
+  }
+  .botoes {
+    button {
+      color: $gray-tone-200;
+
+      span.icon-arrow {
+        background-image: url('/src/assets/icons/dark/arrow-right.svg');
+      }
+    }
+  }
+  
+  .redes-sociais {
+      a.icon-linkedin {
+        background-image: url('/src/assets/icons/dark/linkedin.svg');
+      }
+
+      a.icon-github {
+        background-image: url('/src/assets/icons/dark/github-gray.svg');
+      }
+
+      a.icon-behance {
+        background-image: url('/src/assets/icons/dark/behance-gray.svg');
+      }
+
+      a.icon-devto {
+        background-image: url('/src/assets/icons/dark/devto.svg');
+      }
+  }
+
+  .scroll-indicator{
+    .icon-mouse {
+      background-image: url('/src/assets/icons/dark/scroll.svg'); 
+    }
+
+    .icon-down {
+      background-image: url('/src/assets/icons/dark/arrow-down.svg');
+    }
+  }
+}
