@@ -12,7 +12,7 @@ function Menu() {
       navigate('/', { replace: false });
       setTimeout(() => {
         scrollToSection(id);
-      }, 1); 
+      }, 100); 
     } else {
       scrollToSection(id);
     }
@@ -25,7 +25,7 @@ function Menu() {
           <ul className="menu-nav">
             <li onClick={() => handleScroll('apresentacao')}><span>HOME</span></li>
             <li onClick={() => handleScroll('sobre')}><span>SOBRE MIM</span></li>
-            <li><span>EXPERIÊNCIAS</span></li>
+            <li onClick={() => handleScroll('experiencias')}><span>EXPERIÊNCIAS</span></li>
             <li><span>HABILIDADES</span></li>
             <li><span>PROJETOS</span></li>
             <li><span>CONTATO</span></li>
