@@ -1,0 +1,19 @@
+@import '../../styles/variables.scss';
+
+footer{
+  height: 4vh;
+  background-color: $white;
+  display: flex;
+  align-items: center;       
+  justify-content: center; 
+  color: $gray-tone-300;
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+body.dark{
+  footer{
+    background-color: $black;
+    color: $gray-tone-200;
+  }
+}
