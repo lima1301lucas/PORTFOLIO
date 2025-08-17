@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "categoria": "UI/UX Design",
+    "foto": "/src/assets/images/projects/...",
+    "titulo": "Projeto",
+    "resumo": "Lorem ipsum dolor sit amet. Eum nostrum voluptas qui dolorem fugit ut ducimus adipisci qui ipsa mollitia et consequatur nihil ut explicabo animi vel molestias voluptatem.",
+    "descricao": "Lorem ipsum dolor sit amet. Eum nostrum voluptas qui dolorem fugit ut ducimus adipisci qui ipsa mollitia et consequatur nihil ut explicabo animi vel molestias voluptatem.",
+    "funcionalidades": [
+      "- Lorem ipsum",
+      "- Lorem ipsum",
+      "- Lorem ipsum"
+    ],
+    "tags": ["stack", "stack", "stack", "stack"],
+    "links": [
+      {
+        "nome": "Ver Projeto",
+        "url": "https://"
+      },
+      {
+        "nome": "Ver Repositório",
+        "url": "https://"
+      }
+    ]
+  }
+]
