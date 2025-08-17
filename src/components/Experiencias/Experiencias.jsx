@@ -1,5 +1,5 @@
 import { useState } from "react";
-import dados from "../../assets/data/experiencias.json"; // ajuste o caminho
+import dados from "../../assets/data/experiencias.json";
 import "../Experiencias/Experiencias.scss";
 
 function Experiencias() {
