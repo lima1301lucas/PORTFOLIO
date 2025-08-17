@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "UI/UX Design",
+    "tecnologias": [
+      { "nome": "Figma", "icone": "/src/assets/skills/figma.svg" },
+      { "nome": "Adobe XD", "icone": "/src/assets/skills/adobexd.svg" }
+    ]
+  },
+  {
+    "titulo": "Front-end",
+    "tecnologias": [
+      { "nome": "HTML5", "icone": "/src/assets/skills/html.svg" },
+      { "nome": "CSS3", "icone": "/src/assets/skills/css.svg" },
+      { "nome": "JavaScript", "icone": "/src/assets/skills/javascript.svg" },
+      { "nome": "React", "icone": "/src/assets/skills/react.svg" },
+      { "nome": "Node.js", "icone": "/src/assets/skills/nodejs.svg" },
+      { "nome": "Sass", "icone": "/src/assets/skills/sass.svg" },
+      { "nome": "Bootstrap", "icone": "/src/assets/skills/bootstrap.svg" }
+    ]
+  },
+  {
+    "titulo": "Back-end",
+    "tecnologias": [
+      { "nome": "C#", "icone": "/src/assets/skills/csharp.svg" },
+      { "nome": "Python", "icone": "/src/assets/skills/python.svg" }
+    ]
+  },
+  {
+    "titulo": "Banco de Dados",
+    "tecnologias": [
+      { "nome": "MySQL", "icone": "/src/assets/skills/mysql.svg" }
+    ]
+  },
+  {
+    "titulo": "Ferramentas",
+    "tecnologias": [
+      { "nome": "Git", "icone": "/src/assets/skills/git.svg" },
+      { "nome": "GitHub", "icone": "/src/assets/skills/github.svg" },
+      { "nome": "VS Code", "icone": "/src/assets/skills/vscode.svg" }
+    ]
+  }
+]
