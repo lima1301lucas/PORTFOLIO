@@ -2,6 +2,7 @@ import Apresentacao from '../Apresentacao/Apresentacao';
 import Sobre from '../Sobre/Sobre';
 import Experiencias from '../Experiencias/Experiencias';
 import Habilidades from '../Habilidades/Habilidades';
+import Contato from '../Contato/Contato';
 import Rodape from '../Rodape/Rodape';
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
       <Sobre />
       <Experiencias />
       <Habilidades />
+      <Contato />
       <Rodape />
     </>
   );

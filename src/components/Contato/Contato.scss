@@ -1,0 +1,128 @@
+@import '../../styles/variables.scss';
+
+.contato-content{
+    width: 75vw;
+    height: auto;
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: flex-start;
+}
+
+.title{
+  width: 100%;
+  height: 10%;
+  margin: 0 2rem;
+
+  h1{
+    font-size: 3rem;
+    text-align: center;
+    color: $gray-tone-600;
+  }
+}
+
+.cards-contato-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.contato-card {
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-radius: $border-radius;
+  box-shadow: 1px 2px 5px 0 rgba($gray-tone-500, 0.25);
+  min-width: 300px;
+  max-width: 350px;
+
+  .card-left {
+    width: 60px;
+    height: 60px;
+    margin-right: 1rem;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card-right {
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: $gray-tone-500;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      p {
+        margin: 0;
+        font-size: 1rem;
+        color: $gray-tone-400;
+      }
+
+      .arrow {
+        width: 20px;
+        height: 20px;
+        background-image: url("/src/assets/icons/light/arrow-right.svg");
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+
+  &.whatsapp-card .card-left {
+    background-image: url("/src/assets/icons/light/whatsapp.svg");
+  }
+
+  &.email-card .card-left {
+    background-image: url("/src/assets/icons/light/email.svg");
+  }
+
+  &.linkedin-card .card-left {
+    background-image: url("/src/assets/icons/light/linkedin-gray.svg");
+  }
+}
+
+body.dark {
+  .title h1 {
+    color: $gray-tone-200;
+  }
+
+  .contato-card {
+    background-color: $black;
+
+    .card-right {
+      h2 {
+        color: $gray-tone-100;
+      }
+
+      .card-footer {
+        p {
+          color: $gray-tone-200;
+        }
+      }
+      
+      &.whatsapp-card .card-left {
+        background-image: url("/src/assets/icons/dark/whatsapp.svg");
+      }
+    
+      &.email-card .card-left {
+        background-image: url("/src/assets/icons/dark/email.svg");
+      }
+    
+      &.linkedin-card .card-left {
+        background-image: url("/src/assets/icons/dark/linkedin.svg");
+      }
+    }
+  }
+}
