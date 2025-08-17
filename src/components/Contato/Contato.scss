@@ -97,7 +97,6 @@ body.dark {
   .title h1 {
     color: $gray-tone-200;
   }
-
   .contato-card {
     background-color: $black;
 
@@ -111,18 +110,18 @@ body.dark {
           color: $gray-tone-200;
         }
       }
-      
-      &.whatsapp-card .card-left {
-        background-image: url("/src/assets/icons/dark/whatsapp.svg");
-      }
-    
-      &.email-card .card-left {
-        background-image: url("/src/assets/icons/dark/email.svg");
-      }
-    
-      &.linkedin-card .card-left {
-        background-image: url("/src/assets/icons/dark/linkedin.svg");
-      }
+    }
+
+    &.whatsapp-card .card-left {
+      background-image: url("/src/assets/icons/dark/whatsapp.svg");
+    }
+
+    &.email-card .card-left {
+      background-image: url("/src/assets/icons/dark/email.svg");
+    }
+
+    &.linkedin-card .card-left {
+      background-image: url("/src/assets/icons/dark/linkedin.svg");
     }
   }
 }
