@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "categorias": "Front-End",
+    "categoria": "Front-End",
     "foto": "/src/assets/images/projects/jogodaonca.png",
     "titulo": "Jogo da Onça",
     "resumo": "Criação das interfaces e codificação de um jogo em estilo animado/pixel art, com foco em ambientação e experiência do usuário.",
@@ -76,7 +76,7 @@
   },
   {
     "id": 4,
-    "categorias": "Front-End",
+    "categoria": "Front-End",
     "foto": "/src/assets/images/projects/bistrot.png",
     "titulo": "Bistrot",
     "resumo": "Site de restaurante fictício Bistrot com menu, informações sobre o chef e a história, além de área de contato com reservas e redes sociais, com interface criada e implementada por mim para uma ótima experiência do usuário.",
@@ -128,7 +128,7 @@
     "funcionalidades": [
       "Contador regressivo (Countdown), Validação de cartão de crédito, Página de erro 404, Etapas de compra (Pedido recebido, Nota fiscal emitida, Enviado, Recebido), Assinatura de newsletter, Perfil de rede social, Carrossel de conteúdo, Cards de status (Sucesso, Aviso, Erro), Seção de perguntas frequentes (FAQ), Upload de documentos."
     ],
-    "tags": ["Adobe XD"],
+    "tags": ["Figma"],
     "links": [
       {
         "nome": "Ver Interfaces",
