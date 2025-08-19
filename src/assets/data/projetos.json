@@ -7,11 +7,11 @@
     "resumo": "Criação das interfaces e codificação de um jogo em estilo animado/pixel art, com foco em ambientação e experiência do usuário.",
     "descricao": "Projeto desenvolvido na faculdade no 6º semestre de Engenharia de Software 3, transformando um jogo de tabuleiro em digital e rentável. Desenvolvi as interfaces e participei da definição da jogabilidade. O jogo possui quatro níveis inspirados em biomas brasileiros (Amazônia, Mata Atlântica, Caatinga e Pantanal), com design visual e sonoro ambientando cada região. Artes e skins em pixel art, com emblemas mostrando histórico e vitórias dos jogadores.",
     "funcionalidades": [
-      "Login e cadastro de usuários",
-      "Loja de skins para personalização",
-      "Interface de jogo funcional",
-      "Área da conta com estatísticas: vitórias, derrotas e emblemas",
-      "Integração com API para dados e progresso do jogador"
+      "Login e cadastro de usuários;",
+      "Loja de skins para personalização;",
+      "Interface de jogo funcional;",
+      "Área da conta com estatísticas: vitórias, derrotas e emblemas;",
+      "Integração com API para dados e progresso do jogador;"
     ],
     "tags": ["HTML", "CSS", "JavaScript", "React", "Figma"],
     "links": [
@@ -33,12 +33,12 @@
     "resumo": "Codificação de um buscador de filmes web conectado com a API do IMDB que permite descobrir lançamentos, filmes populares e avaliações de forma intuitiva e visualmente atraente.",
     "descricao": "Projeto de buscador de filmes desenvolvido para web, permitindo que os usuários descubram informações detalhadas sobre lançamentos, filmes populares e avaliações. A interface foi planejada para oferecer navegação intuitiva, com destaque visual para pôsteres e detalhes de cada título, garantindo uma experiência fluida e agradável ao explorar o catálogo cinematográfico.",
     "funcionalidades": [
-      "Ver filmes atuais em exibição",
-      "Ver filmes que irão lançar",
-      "Ver filmes mais bem avalidados",
-      "Ver filmes mais populares",
-      "Pesquisar por filmes específicos",
-      "Ver detalhes do filme"
+      "Ver filmes atuais em exibição;",
+      "Ver filmes que irão lançar;",
+      "Ver filmes mais bem avalidados;",
+      "Ver filmes mais populares;",
+      "Pesquisar por filmes específicos;",
+      "Ver detalhes do filme;"
     ],
     "tags": ["HTML", "CSS", "JavaScript", "React", "Bootstrap"],
     "links": [
@@ -60,7 +60,7 @@
     "resumo": "Codificação web conectado à API da OpenWeather que permite consultar o clima atual de qualquer cidade com temperatura, umidade, vento e condição do céu de forma clara e prática.",
     "descricao": "Projeto que permite consultar o clima atual de qualquer cidade. Conectado à API da OpenWeather, ele exibe temperatura, umidade, velocidade do vento e condição do céu. A interface simples e direta facilita a pesquisa rápida e eficiente, oferecendo informações meteorológicas essenciais de forma clara e acessível.",
     "funcionalidades": [
-      "Ver o clima atual da cidade pesquisada"
+      "Ver o clima atual da cidade pesquisada;"
     ],
     "tags": ["HTML", "CSS", "JavaScript"],
     "links": [
@@ -82,7 +82,7 @@
     "resumo": "Site de restaurante fictício Bistrot com menu, informações sobre o chef e a história, além de área de contato com reservas e redes sociais, com interface criada e implementada por mim para uma ótima experiência do usuário.",
     "descricao": "Desenvolvimento de um site para o restaurante fictício Bistrot, com áreas de menu, história, chef, missão, visão e valores, além de contato com informações de reservas, horários e redes sociais. Criação das interfaces seguindo o design proposto em um curso que fiz e implementação completa em código, garantindo navegabilidade, responsividade e boa experiência do usuário.",
     "funcionalidades": [
-      "Consultar menu, informações do restaurante e realizar contato/reserva."
+      "Consultar menu, informações do restaurante e realizar contato/reserva;"
     ],
     "tags": ["HTML", "CSS", "JavaScript", "Figma"],
     "links": [
@@ -108,7 +108,7 @@
     "resumo": "Projeto de prática de design de interfaces com foco em aprendizado e experimentação, resultando em interfaces diferentes do cotidiano do ambiente mobile, aplicando conceitos de UI e usabilidade",
     "descricao": "Projeto voltado para a prática e aprendizado de design de interfaces. Durante o desenvolvimento, foram criadas algumas interfaces do cotidiano, explorando formas, cores, tipografia e princípios de usabilidade. O projeto permitiu experimentar combinações visuais de forma consciente, entendendo a importância de cada elemento dentro da experiência do usuário.",
     "funcionalidades": [
-      "Telefone, Reprodutor de Música, Navegador Web, Calculadora, Câmera, Resultados de Exercícios (Smartwatch), App de Mensagens, Lista de Tarefas, Clima e Calendário."
+      "Telefone, Reprodutor de Música, Navegador Web, Calculadora, Câmera, Resultados de Exercícios (Smartwatch), App de Mensagens, Lista de Tarefas, Clima e Calendário;"
     ],
     "tags": ["Adobe XD"],
     "links": [
@@ -126,7 +126,7 @@
     "resumo": "Projeto de prática de design de interfaces com foco em aprendizado e experimentação, resultando em interfaces diferentes do ambiente web, aplicando conceitos de UI e usabilidade",
     "descricao": "Projeto voltado para a prática e aprendizado de design de interfaces. Durante o desenvolvimento, foram criadas algumas interfaces do cotidiano, explorando formas, cores, tipografia e princípios de usabilidade. O projeto permitiu experimentar combinações visuais de forma consciente, entendendo a importância de cada elemento dentro da experiência do usuário.",
     "funcionalidades": [
-      "Contador regressivo (Countdown), Validação de cartão de crédito, Página de erro 404, Etapas de compra (Pedido recebido, Nota fiscal emitida, Enviado, Recebido), Assinatura de newsletter, Perfil de rede social, Carrossel de conteúdo, Cards de status (Sucesso, Aviso, Erro), Seção de perguntas frequentes (FAQ), Upload de documentos."
+      "Contador regressivo (Countdown), Validação de cartão de crédito, Página de erro 404, Etapas de compra (Pedido recebido, Nota fiscal emitida, Enviado, Recebido), Assinatura de newsletter, Perfil de rede social, Carrossel de conteúdo, Cards de status (Sucesso, Aviso, Erro), Seção de perguntas frequentes (FAQ), Upload de documentos;"
     ],
     "tags": ["Figma"],
     "links": [

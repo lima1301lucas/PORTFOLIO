@@ -1,12 +1,15 @@
-import {useState} from "react";
+import { useState } from "react";
 import projetosData from "../../assets/data/projetos.json";
-import '../Projetos/Projetos.scss';
+import Projeto from "../Projeto/Projeto";
+import "../Projetos/Projetos.scss";
 
 function Projetos() {
   const [categoriaSelecionada, setCategoriaSelecionada] = useState("Todos");
+  const [projetoSelecionado, setProjetoSelecionado] = useState(null);
+
   const categorias = ["Todos", "UI/UX Design", "Front-End"];
   const projetosFiltrados = categoriaSelecionada === "Todos" ? projetosData : projetosData.filter((projeto) => projeto.categoria === categoriaSelecionada);
-  
+
   return (
     <section id="projetos" className="projetos">
       <div className="container">
@@ -35,15 +38,21 @@ function Projetos() {
                     <p className="resumo">{projeto.resumo}</p>
                   </div>
                   <div className="tags">
-                    {projeto.tags.map((tag, index) => (<span key={index}>{tag}</span>))}
+                    {projeto.tags.map((tag, index) => (
+                      <span key={index}>{tag}</span>
+                    ))}
                   </div>
-                  <button className="ver-projeto">Ver projeto</button>
+                  <button className="ver-projeto" onClick={() => setProjetoSelecionado(projeto)}>Ver projeto
+                  </button>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </div>
+      {projetoSelecionado && (
+        <Projeto projeto={projetoSelecionado} onClose={() => setProjetoSelecionado(null)}/>
+      )}
     </section>
   );
 }
