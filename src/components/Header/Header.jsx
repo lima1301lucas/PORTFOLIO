@@ -24,7 +24,7 @@ function Header() {
             <img src="/src/assets/logo.svg" alt="Logo" />
           </div>
           <div className="buttons">
-            <button onClick={toggleLanguage} className="lang-btn"><p>{language}</p></button>
+            <button onClick={toggleLanguage} className="lang-btn"><p>{language === "pt" ? "EN" : "PT"}</p></button>
             <button onClick={toggleTheme} aria-label="Toggle theme" className="theme-btn" />
             <button onClick={toggleMenu} aria-label={isMenuOpen ? "Close menu" : "Open menu"} className={isMenuOpen ? "close-btn" : "menu-btn"} />
           </div>

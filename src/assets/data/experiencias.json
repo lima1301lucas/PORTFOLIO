@@ -1,11 +1,31 @@
 {
   "formacoes": [
-    { "titulo": "Análise e Desenvolvimento de Sistemas", "empresa": "Fatec São Paulo", "data": "02/2021 - 12/2024" },
-    { "titulo": "Desenvolvimento de Sistemas", "empresa": "Etec Jaraguá", "data": "02/2019 - 07/2020" }
+    { 
+      "titulo": { "pt": "Análise e Desenvolvimento de Sistemas", "en": "Systems Analysis and Development" }, 
+      "empresa": { "pt": "Fatec São Paulo", "en": "Fatec São Paulo" }, 
+      "data": "02/2021 - 12/2024" 
+    },
+    { 
+      "titulo": { "pt": "Desenvolvimento de Sistemas", "en": "Systems Development" }, 
+      "empresa": { "pt": "Etec Jaraguá", "en": "Etec Jaraguá" }, 
+      "data": "02/2019 - 07/2020" 
+    }
   ],
   "trabalhos": [
-    { "titulo": "Analista de Sistemas Júnior II", "empresa": "Infocar Tecnologia", "data": "03/2025 - O momento" },
-    { "titulo": "Analista de Sistemas Júnior I", "empresa": "Infocar Tecnologia", "data": "02/2023 - 02/2025" },
-    { "titulo": "Trainee de TI", "empresa": "Infocar Tecnologia", "data": "07/2021 - 01/2023" }
+    { 
+      "titulo": { "pt": "Analista de Sistemas Júnior II", "en": "Junior Systems Analyst II" }, 
+      "empresa": { "pt": "Infocar Tecnologia", "en": "Infocar Technology" }, 
+      "data": "03/2025 - Present" 
+    },
+    { 
+      "titulo": { "pt": "Analista de Sistemas Júnior I", "en": "Junior Systems Analyst I" }, 
+      "empresa": { "pt": "Infocar Tecnologia", "en": "Infocar Technology" }, 
+      "data": "02/2023 - 02/2025" 
+    },
+    { 
+      "titulo": { "pt": "Trainee de TI", "en": "IT Trainee" }, 
+      "empresa": { "pt": "Infocar Tecnologia", "en": "Infocar Technology" }, 
+      "data": "07/2021 - 01/2023" 
+    }
   ]
 }

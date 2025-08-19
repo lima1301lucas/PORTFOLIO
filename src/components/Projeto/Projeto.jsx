@@ -1,7 +1,6 @@
-import { button } from "framer-motion/client";
 import "./Projeto.scss";
 
-function Projeto({ projeto, onClose }) {
+function Projeto({ projeto, onClose, language }) {
   return (
     <section className="modal-overlay">
       <div className="modal-area">
@@ -10,26 +9,26 @@ function Projeto({ projeto, onClose }) {
         </div>
         <div className="modal-content">
           <div className="left">
-            <img src={projeto.foto} alt={projeto.titulo} />
+            <img src={projeto.foto} alt={projeto.titulo[language]} />
           </div>
           <div className="right">
             <div className="modal-main">
               <div className="modal-titulo">
-                <h1>{projeto.titulo}</h1>
+                <h1>{projeto.titulo[language]}</h1>
               </div>
               <div className="modal-descricao">
-                <p className="descricao">{projeto.descricao}</p>
+                <p className="descricao">{projeto.descricao[language]}</p>
               </div>
               <div className="modal-funcionalidades">
-                <h2>Funcionalidades</h2>
+                <h2>{language === "pt" ? "Funcionalidades" : "Features"}</h2>
                 <ul>
-                  {projeto.funcionalidades.map((func, index) => (
+                  {projeto.funcionalidades[language].map((func, index) => (
                     <li key={index}>{func}</li>
                   ))}
                 </ul>
               </div>
               <div className="modal-tags">
-                <h2>Tecnologias</h2>
+                <h2>{language === "pt" ? "Tecnologias" : "Technologies"}</h2>
                 <div className="tags">
                   {projeto.tags.map((tag, index) => (
                     <span key={index}>{tag}</span>
@@ -39,7 +38,13 @@ function Projeto({ projeto, onClose }) {
             </div>
             <div className="modal-links">
               {projeto.links.map((link, index) => (
-                <button key={index} className="modal-button" onClick={() => window.open(link.url, "_blank")}>{link.nome}</button>
+                <button
+                  key={index}
+                  className="modal-button"
+                  onClick={() => window.open(link.url, "_blank")}
+                >
+                  {link.nome[language]}
+                </button>
               ))}
             </div>
           </div>

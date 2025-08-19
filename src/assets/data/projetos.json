@@ -1,137 +1,281 @@
 [
   {
     "id": 1,
-    "categoria": "Front-End",
+    "categoria": {
+      "pt": "Front-End",
+      "en": "Front-End"
+    },
     "foto": "/src/assets/images/projects/jogodaonca.png",
-    "titulo": "Jogo da Onça",
-    "resumo": "Criação das interfaces e codificação de um jogo em estilo animado/pixel art, com foco em ambientação e experiência do usuário.",
-    "descricao": "Projeto desenvolvido na faculdade no 6º semestre de Engenharia de Software 3, transformando um jogo de tabuleiro em digital e rentável. Desenvolvi as interfaces e participei da definição da jogabilidade. O jogo possui quatro níveis inspirados em biomas brasileiros (Amazônia, Mata Atlântica, Caatinga e Pantanal), com design visual e sonoro ambientando cada região. Artes e skins em pixel art, com emblemas mostrando histórico e vitórias dos jogadores.",
-    "funcionalidades": [
-      "Login e cadastro de usuários;",
-      "Loja de skins para personalização;",
-      "Interface de jogo funcional;",
-      "Área da conta com estatísticas: vitórias, derrotas e emblemas;",
-      "Integração com API para dados e progresso do jogador;"
-    ],
+    "titulo": {
+      "pt": "Jogo da Onça",
+      "en": "Jogo da Onça"
+    },
+    "resumo": {
+      "pt": "Criação das interfaces e codificação de um jogo em estilo animado/pixel art, com foco em ambientação e experiência do usuário.",
+      "en": "Creation of interfaces and coding of a game in an animated/pixel art style, focusing on atmosphere and user experience."
+    },
+    "descricao": {
+      "pt": "Projeto desenvolvido na faculdade no 6º semestre de Engenharia de Software 3, transformando um jogo de tabuleiro em digital e rentável. Desenvolvi as interfaces e participei da definição da jogabilidade. O jogo possui quatro níveis inspirados em biomas brasileiros (Amazônia, Mata Atlântica, Caatinga e Pantanal), com design visual e sonoro ambientando cada região. Artes e skins em pixel art, com emblemas mostrando histórico e vitórias dos jogadores.",
+      "en": "Project developed at university in the 6th semester of Software Engineering 3, transforming a board game into a digital and monetizable version. I designed the interfaces and helped define the gameplay. The game features four levels inspired by Brazilian biomes (Amazon, Atlantic Forest, Caatinga, and Pantanal), with visual and sound design creating the ambiance of each region. Pixel art arts and skins, with badges showing players’ history and victories."
+    },
+    "funcionalidades": {
+      "pt": [
+        "Login e cadastro de usuários;",
+        "Loja de skins para personalização;",
+        "Interface de jogo funcional;",
+        "Área da conta com estatísticas: vitórias, derrotas e emblemas;",
+        "Integração com API para dados e progresso do jogador;"
+      ],
+      "en": [
+        "User login and registration;",
+        "Skins store for customization;",
+        "Functional game interface;",
+        "Account area with statistics: wins, losses, and badges;",
+        "API integration for player data and progress;"
+      ]
+    },
     "tags": ["HTML", "CSS", "JavaScript", "React", "Figma"],
     "links": [
       {
-        "nome": "Ver Interfaces",
+        "nome": {
+          "pt": "Ver Interfaces",
+          "en": "See Interfaces"
+        },
         "url": "https://www.behance.net/gallery/184887377/Jogo-da-Onca"
       },
       {
-        "nome": "Ver Repositório",
+        "nome": {
+          "pt": "Ver Repositório",
+          "en": "See Repository"
+        },
         "url": "https://github.com/IES-FATECSP-6sem2-2023/jdo-front-react"
       }
     ]
   },
   {
     "id": 2,
-    "categoria": "Front-End",
+    "categoria": {
+      "pt": "Front-End",
+      "en": "Front-End"
+    },
     "foto": "/src/assets/images/projects/filmfinder.png",
-    "titulo": "Film Finder",
-    "resumo": "Codificação de um buscador de filmes web conectado com a API do IMDB que permite descobrir lançamentos, filmes populares e avaliações de forma intuitiva e visualmente atraente.",
-    "descricao": "Projeto de buscador de filmes desenvolvido para web, permitindo que os usuários descubram informações detalhadas sobre lançamentos, filmes populares e avaliações. A interface foi planejada para oferecer navegação intuitiva, com destaque visual para pôsteres e detalhes de cada título, garantindo uma experiência fluida e agradável ao explorar o catálogo cinematográfico.",
-    "funcionalidades": [
-      "Ver filmes atuais em exibição;",
-      "Ver filmes que irão lançar;",
-      "Ver filmes mais bem avalidados;",
-      "Ver filmes mais populares;",
-      "Pesquisar por filmes específicos;",
-      "Ver detalhes do filme;"
-    ],
+    "titulo": {
+      "pt": "Film Finder",
+      "en": "Film Finder"
+    },
+    "resumo": {
+      "pt": "Codificação de um buscador de filmes web conectado com a API do IMDB que permite descobrir lançamentos, filmes populares e avaliações de forma intuitiva e visualmente atraente.",
+      "en": "Development of a web movie search app connected to the IMDB API, allowing users to discover new releases, popular movies, and ratings in an intuitive and visually appealing way."
+    },
+    "descricao": {
+      "pt": "Projeto de buscador de filmes desenvolvido para web, permitindo que os usuários descubram informações detalhadas sobre lançamentos, filmes populares e avaliações. A interface foi planejada para oferecer navegação intuitiva, com destaque visual para pôsteres e detalhes de cada título, garantindo uma experiência fluida e agradável ao explorar o catálogo cinematográfico.",
+      "en": "Web movie search project allowing users to discover detailed information about releases, popular films, and ratings. The interface is designed for intuitive navigation, highlighting posters and details for each title, ensuring a smooth and enjoyable experience while exploring the movie catalog."
+    },
+    "funcionalidades": {
+      "pt": [
+        "Ver filmes atuais em exibição;",
+        "Ver filmes que irão lançar;",
+        "Ver filmes mais bem avalidados;",
+        "Ver filmes mais populares;",
+        "Pesquisar por filmes específicos;",
+        "Ver detalhes do filme;"
+      ],
+      "en": [
+        "View current movies in theaters;",
+        "See upcoming releases;",
+        "View top-rated movies;",
+        "View popular movies;",
+        "Search for specific movies;",
+        "View movie details;"
+      ]
+    },
     "tags": ["HTML", "CSS", "JavaScript", "React", "Bootstrap"],
     "links": [
       {
-        "nome": "Ver Projeto",
+        "nome": {
+          "pt": "Ver Projeto",
+          "en": "See Project"
+        },
         "url": "https://filmfinder-nine.vercel.app/"
       },
       {
-        "nome": "Ver Repositório",
+        "nome": {
+          "pt": "Ver Repositório",
+          "en": "See Repository"
+        },
         "url": "https://github.com/lima1301lucas/FILM_FINDER"
       }
     ]
   },
   {
     "id": 3,
-    "categoria": "Front-End",
+    "categoria": {
+      "pt": "Front-End",
+      "en": "Front-End"
+    },
     "foto": "/src/assets/images/projects/weathercity.png",
-    "titulo": "Weather City",
-    "resumo": "Codificação web conectado à API da OpenWeather que permite consultar o clima atual de qualquer cidade com temperatura, umidade, vento e condição do céu de forma clara e prática.",
-    "descricao": "Projeto que permite consultar o clima atual de qualquer cidade. Conectado à API da OpenWeather, ele exibe temperatura, umidade, velocidade do vento e condição do céu. A interface simples e direta facilita a pesquisa rápida e eficiente, oferecendo informações meteorológicas essenciais de forma clara e acessível.",
-    "funcionalidades": [
-      "Ver o clima atual da cidade pesquisada;"
-    ],
+    "titulo": {
+      "pt": "Weather City",
+      "en": "Weather City"
+    },
+    "resumo": {
+      "pt": "Codificação web conectado à API da OpenWeather que permite consultar o clima atual de qualquer cidade com temperatura, umidade, vento e condição do céu de forma clara e prática.",
+      "en": "Web development connected to the OpenWeather API, allowing users to check the current weather of any city with temperature, humidity, wind, and sky condition in a clear and practical way."
+    },
+    "descricao": {
+      "pt": "Projeto que permite consultar o clima atual de qualquer cidade. Conectado à API da OpenWeather, ele exibe temperatura, umidade, velocidade do vento e condição do céu. A interface simples e direta facilita a pesquisa rápida e eficiente, oferecendo informações meteorológicas essenciais de forma clara e acessível.",
+      "en": "Project that allows users to check the current weather in any city. Connected to the OpenWeather API, it shows temperature, humidity, wind speed, and sky condition. The simple and direct interface facilitates fast and efficient searches, providing essential meteorological information clearly and accessibly."
+    },
+    "funcionalidades": {
+      "pt": [
+        "Ver o clima atual da cidade pesquisada;"
+      ],
+      "en": [
+        "Check the current weather of the searched city;"
+      ]
+    },
     "tags": ["HTML", "CSS", "JavaScript"],
     "links": [
       {
-        "nome": "Ver Projeto",
+        "nome": {
+          "pt": "Ver Projeto",
+          "en": "See Project"
+        },
         "url": "https://filmfinder-nine.vercel.app/"
       },
       {
-        "nome": "Ver Repositório",
+        "nome": {
+          "pt": "Ver Repositório",
+          "en": "See Repository"
+        },
         "url": "https://github.com/lima1301lucas/FILM_FINDER"
       }
     ]
   },
   {
     "id": 4,
-    "categoria": "Front-End",
+    "categoria": {
+      "pt": "Front-End",
+      "en": "Front-End"
+    },
     "foto": "/src/assets/images/projects/bistrot.png",
-    "titulo": "Bistrot",
-    "resumo": "Site de restaurante fictício Bistrot com menu, informações sobre o chef e a história, além de área de contato com reservas e redes sociais, com interface criada e implementada por mim para uma ótima experiência do usuário.",
-    "descricao": "Desenvolvimento de um site para o restaurante fictício Bistrot, com áreas de menu, história, chef, missão, visão e valores, além de contato com informações de reservas, horários e redes sociais. Criação das interfaces seguindo o design proposto em um curso que fiz e implementação completa em código, garantindo navegabilidade, responsividade e boa experiência do usuário.",
-    "funcionalidades": [
-      "Consultar menu, informações do restaurante e realizar contato/reserva;"
-    ],
+    "titulo": {
+      "pt": "Bistrot",
+      "en": "Bistrot"
+    },
+    "resumo": {
+      "pt": "Site de restaurante fictício Bistrot com menu, informações sobre o chef e a história, além de área de contato com reservas e redes sociais, com interface criada e implementada por mim para uma ótima experiência do usuário.",
+      "en": "Website for the fictional restaurant Bistrot with menu, chef information, story, and a contact area for reservations and social media, with the interface designed and implemented by me for an excellent user experience."
+    },
+    "descricao": {
+      "pt": "Desenvolvimento de um site para o restaurante fictício Bistrot, com áreas de menu, história, chef, missão, visão e valores, além de contato com informações de reservas, horários e redes sociais. Criação das interfaces seguindo o design proposto em um curso que fiz e implementação completa em código, garantindo navegabilidade, responsividade e boa experiência do usuário.",
+      "en": "Development of a website for the fictional restaurant Bistrot, including menu, history, chef, mission, vision, and values sections, along with contact information for reservations, opening hours, and social media. Interfaces were created following a course design and fully implemented in code, ensuring navigability, responsiveness, and a good user experience."
+    },
+    "funcionalidades": {
+      "pt": [
+        "Consultar menu, informações do restaurante e realizar contato/reserva;"
+      ],
+      "en": [
+        "View menu, restaurant information, and make contact/reservation;"
+      ]
+    },
     "tags": ["HTML", "CSS", "JavaScript", "Figma"],
     "links": [
       {
-        "nome": "Ver Projeto",
+        "nome": {
+          "pt": "Ver Projeto",
+          "en": "See Project"
+        },
         "url": "https://lima1301lucas.github.io/BISTROT/"
       },
       {
-        "nome": "Ver Repositório",
+        "nome": {
+          "pt": "Ver Repositório",
+          "en": "See Repository"
+        },
         "url": "https://github.com/lima1301lucas/BISTROT"
       },
       {
-        "nome": "Ver Interfaces",
+        "nome": {
+          "pt": "Ver Interfaces",
+          "en": "See Interfaces"
+        },
         "url": "https://www.behance.net/gallery/177785973/Bistrot"
       }
     ]
   },
   {
     "id": 5,
-    "categoria": "UI/UX Design",
+    "categoria": {
+      "pt": "UI/UX Design",
+      "en": "UI/UX Design"
+    },
     "foto": "/src/assets/images/projects/dailyui01.png",
-    "titulo": "Daily UI Challenge #01",
-    "resumo": "Projeto de prática de design de interfaces com foco em aprendizado e experimentação, resultando em interfaces diferentes do cotidiano do ambiente mobile, aplicando conceitos de UI e usabilidade",
-    "descricao": "Projeto voltado para a prática e aprendizado de design de interfaces. Durante o desenvolvimento, foram criadas algumas interfaces do cotidiano, explorando formas, cores, tipografia e princípios de usabilidade. O projeto permitiu experimentar combinações visuais de forma consciente, entendendo a importância de cada elemento dentro da experiência do usuário.",
-    "funcionalidades": [
-      "Telefone, Reprodutor de Música, Navegador Web, Calculadora, Câmera, Resultados de Exercícios (Smartwatch), App de Mensagens, Lista de Tarefas, Clima e Calendário;"
-    ],
+    "titulo": {
+      "pt": "Daily UI Challenge #01",
+      "en": "Daily UI Challenge #01"
+    },
+    "resumo": {
+      "pt": "Projeto de prática de design de interfaces com foco em aprendizado e experimentação, resultando em interfaces diferentes do cotidiano do ambiente mobile, aplicando conceitos de UI e usabilidade",
+      "en": "Interface design practice project focused on learning and experimentation, resulting in mobile interfaces different from daily routines, applying UI and usability concepts."
+    },
+    "descricao": {
+      "pt": "Projeto voltado para a prática e aprendizado de design de interfaces. Durante o desenvolvimento, foram criadas algumas interfaces do cotidiano, explorando formas, cores, tipografia e princípios de usabilidade. O projeto permitiu experimentar combinações visuais de forma consciente, entendendo a importância de cada elemento dentro da experiência do usuário.",
+      "en": "Project aimed at interface design practice and learning. During development, several everyday interfaces were created, exploring shapes, colors, typography, and usability principles. The project allowed conscious experimentation with visual combinations, understanding the importance of each element in the user experience."
+    },
+    "funcionalidades": {
+      "pt": [
+        "Telefone, Reprodutor de Música, Navegador Web, Calculadora, Câmera, Resultados de Exercícios (Smartwatch), App de Mensagens, Lista de Tarefas, Clima e Calendário;"
+      ],
+      "en": [
+        "Phone, Music Player, Web Browser, Calculator, Camera, Exercise Results (Smartwatch), Messaging App, To-Do List, Weather, and Calendar;"
+      ]
+    },
     "tags": ["Adobe XD"],
     "links": [
       {
-        "nome": "Ver Interfaces",
+        "nome": {
+          "pt": "Ver Interfaces",
+          "en": "See Interfaces"
+        },
         "url": "https://www.behance.net/gallery/166364273/Daily-UI-Challenge-01"
       }
     ]
   },
   {
     "id": 6,
-    "categoria": "UI/UX Design",
+    "categoria": {
+      "pt": "UI/UX Design",
+      "en": "UI/UX Design"
+    },
     "foto": "/src/assets/images/projects/dailyui02.png",
-    "titulo": "Daily UI Challenge #02",
-    "resumo": "Projeto de prática de design de interfaces com foco em aprendizado e experimentação, resultando em interfaces diferentes do ambiente web, aplicando conceitos de UI e usabilidade",
-    "descricao": "Projeto voltado para a prática e aprendizado de design de interfaces. Durante o desenvolvimento, foram criadas algumas interfaces do cotidiano, explorando formas, cores, tipografia e princípios de usabilidade. O projeto permitiu experimentar combinações visuais de forma consciente, entendendo a importância de cada elemento dentro da experiência do usuário.",
-    "funcionalidades": [
-      "Contador regressivo (Countdown), Validação de cartão de crédito, Página de erro 404, Etapas de compra (Pedido recebido, Nota fiscal emitida, Enviado, Recebido), Assinatura de newsletter, Perfil de rede social, Carrossel de conteúdo, Cards de status (Sucesso, Aviso, Erro), Seção de perguntas frequentes (FAQ), Upload de documentos;"
-    ],
+    "titulo": {
+      "pt": "Daily UI Challenge #02",
+      "en": "Daily UI Challenge #02"
+    },
+    "resumo": {
+      "pt": "Projeto de prática de design de interfaces com foco em aprendizado e experimentação, resultando em interfaces diferentes do ambiente web, aplicando conceitos de UI e usabilidade",
+      "en": "Interface design practice project focused on learning and experimentation, resulting in web interfaces different from the usual, applying UI and usability concepts."
+    },
+    "descricao": {
+      "pt": "Projeto voltado para a prática e aprendizado de design de interfaces. Durante o desenvolvimento, foram criadas algumas interfaces do cotidiano, explorando formas, cores, tipografia e princípios de usabilidade. O projeto permitiu experimentar combinações visuais de forma consciente, entendendo a importância de cada elemento dentro da experiência do usuário.",
+      "en": "Project aimed at interface design practice and learning. During development, several everyday interfaces were created, exploring shapes, colors, typography, and usability principles. The project allowed conscious experimentation with visual combinations, understanding the importance of each element in the user experience."
+    },
+    "funcionalidades": {
+      "pt": [
+        "Contador regressivo (Countdown), Validação de cartão de crédito, Página de erro 404, Etapas de compra (Pedido recebido, Nota fiscal emitida, Enviado, Recebido), Assinatura de newsletter, Perfil de rede social, Carrossel de conteúdo, Cards de status (Sucesso, Aviso, Erro), Seção de perguntas frequentes (FAQ), Upload de documentos;"
+      ],
+      "en": [
+        "Countdown timer, Credit card validation, 404 error page, Purchase steps (Order received, Invoice issued, Shipped, Received), Newsletter subscription, Social media profile, Content carousel, Status cards (Success, Warning, Error), FAQ section, Document upload;"
+      ]
+    },
     "tags": ["Figma"],
     "links": [
       {
-        "nome": "Ver Interfaces",
+        "nome": {
+          "pt": "Ver Interfaces",
+          "en": "See Interfaces"
+        },
         "url": "https://www.behance.net/gallery/166364273/Daily-UI-Challenge-01"
       }
     ]

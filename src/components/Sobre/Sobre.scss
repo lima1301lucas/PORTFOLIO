@@ -67,7 +67,7 @@
     display: flex;
     gap: 1rem;
     margin: 1rem 0;
-
+  
     button {
       width: 200px;
       height: 50px;
@@ -83,24 +83,48 @@
       cursor: pointer;
       border-radius: $border-radius;
       transition: all 0.3s ease;
-
-
-      &.btn-instagram::before {
+    }
+  
+    .btn-instagram {
+      &::before {
         content: '';
         display: inline-block;
         width: 22px;
         height: 22px;
         background-image: url('../../assets/icons/light/instagram.svg');
         background-size: cover;
+        transition: background-image 0.3s ease;
       }
+  
+      &:hover {
+        background: linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);
+        color: $white;
+        border: none;
+      }
+  
+      &:hover::before {
+        background-image: url('../../assets/icons/light/instagram-white.svg');
+      }
+    }
 
-      &.btn-download::before {
+    .btn-download {
+      &::before {
         content: '';
         display: inline-block;
         width: 20px;
         height: 20px;
         background-image: url('../../assets/icons/light/download.svg');
         background-size: cover;
+      }
+
+      &:hover {
+        background-color: darken($primary-blue, 5%);
+        color: $white;
+        border: none;
+      }
+      
+      &:hover::before {
+        background-image: url('../../assets/icons/light/download-white.svg');
       }
     }
   }
@@ -131,6 +155,12 @@ body.dark{
       }
       &.btn-download::before {
         background-image: url('../../assets/icons/dark/download.svg');
+      }
+    }
+
+    .btn-download {
+      &:hover {
+        background-color: darken($primary-orange, 5%);
       }
     }
   }
