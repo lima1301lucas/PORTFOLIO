@@ -5,7 +5,7 @@
       "pt": "Front-End",
       "en": "Front-End"
     },
-    "foto": "/src/assets/images/projects/jogodaonca.png",
+    "foto": "/images/projects/jogodaonca.png",
     "titulo": {
       "pt": "Jogo da Onça",
       "en": "Jogo da Onça"
@@ -58,7 +58,7 @@
       "pt": "Front-End",
       "en": "Front-End"
     },
-    "foto": "/src/assets/images/projects/filmfinder.png",
+    "foto": "/images/projects/filmfinder.png",
     "titulo": {
       "pt": "Film Finder",
       "en": "Film Finder"
@@ -113,7 +113,7 @@
       "pt": "Front-End",
       "en": "Front-End"
     },
-    "foto": "/src/assets/images/projects/weathercity.png",
+    "foto": "/images/projects/weathercity.png",
     "titulo": {
       "pt": "Weather City",
       "en": "Weather City"
@@ -158,7 +158,7 @@
       "pt": "Front-End",
       "en": "Front-End"
     },
-    "foto": "/src/assets/images/projects/bistrot.png",
+    "foto": "/images/projects/bistrot.png",
     "titulo": {
       "pt": "Bistrot",
       "en": "Bistrot"
@@ -210,7 +210,7 @@
       "pt": "UI/UX Design",
       "en": "UI/UX Design"
     },
-    "foto": "/src/assets/images/projects/dailyui01.png",
+    "foto": "/images/projects/dailyui01.png",
     "titulo": {
       "pt": "Daily UI Challenge #01",
       "en": "Daily UI Challenge #01"
@@ -248,7 +248,7 @@
       "pt": "UI/UX Design",
       "en": "UI/UX Design"
     },
-    "foto": "/src/assets/images/projects/dailyui02.png",
+    "foto": "/images/projects/dailyui02.png",
     "titulo": {
       "pt": "Daily UI Challenge #02",
       "en": "Daily UI Challenge #02"
