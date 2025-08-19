@@ -1,8 +1,16 @@
 import { useLanguage } from "../../context/LanguageContext";
 import '../Sobre/Sobre.scss';
+import cvPDF from "../../assets/data/CV-Lucas_Lima.pdf";
 
 function Sobre() {
   const { language } = useLanguage();
+
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = cvPDF;
+    link.download = "LucasLima_CV.pdf";
+    link.click();
+  };
   return (
     <>
       <section id="sobre" className="sobre">
@@ -45,7 +53,7 @@ function Sobre() {
                 <button className="btn-instagram" onClick={() => window.open("https://www.instagram.com/luskaz/", "_blank")}>
                   {language === "pt" ? "Instagram" : "Instagram"}
                 </button>
-                <button className="btn-download">
+                <button className="btn-download" onClick={handleDownload}>
                   {language === "pt" ? "Download CV" : "Download CV"}
                 </button>
               </div>
