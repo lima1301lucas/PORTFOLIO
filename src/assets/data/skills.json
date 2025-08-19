@@ -1,42 +1,57 @@
 [
   {
-    "titulo": "UI/UX Design",
+    "titulo": {
+      "pt": "UI/UX Design",
+      "en": "UI/UX Design"
+    },
     "tecnologias": [
-      { "nome": "Figma", "icone": "/src/assets/skills/figma.svg" },
-      { "nome": "Adobe XD", "icone": "/src/assets/skills/adobexd.svg" }
+      { "nome": { "pt": "Figma", "en": "Figma" }, "icone": "/src/assets/skills/figma.svg" },
+      { "nome": { "pt": "Adobe XD", "en": "Adobe XD" }, "icone": "/src/assets/skills/adobexd.svg" }
     ]
   },
   {
-    "titulo": "Front-end",
+    "titulo": {
+      "pt": "Front-end",
+      "en": "Front-end"
+    },
     "tecnologias": [
-      { "nome": "HTML5", "icone": "/src/assets/skills/html.svg" },
-      { "nome": "CSS3", "icone": "/src/assets/skills/css.svg" },
-      { "nome": "JavaScript", "icone": "/src/assets/skills/javascript.svg" },
-      { "nome": "React", "icone": "/src/assets/skills/react.svg" },
-      { "nome": "Node.js", "icone": "/src/assets/skills/nodejs.svg" },
-      { "nome": "Sass", "icone": "/src/assets/skills/sass.svg" },
-      { "nome": "Bootstrap", "icone": "/src/assets/skills/bootstrap.svg" }
+      { "nome": { "pt": "HTML5", "en": "HTML5" }, "icone": "/src/assets/skills/html.svg" },
+      { "nome": { "pt": "CSS3", "en": "CSS3" }, "icone": "/src/assets/skills/css.svg" },
+      { "nome": { "pt": "JavaScript", "en": "JavaScript" }, "icone": "/src/assets/skills/javascript.svg" },
+      { "nome": { "pt": "React", "en": "React" }, "icone": "/src/assets/skills/react.svg" },
+      { "nome": { "pt": "Node.js", "en": "Node.js" }, "icone": "/src/assets/skills/nodejs.svg" },
+      { "nome": { "pt": "Sass", "en": "Sass" }, "icone": "/src/assets/skills/sass.svg" },
+      { "nome": { "pt": "Bootstrap", "en": "Bootstrap" }, "icone": "/src/assets/skills/bootstrap.svg" }
     ]
   },
   {
-    "titulo": "Back-end",
+    "titulo": {
+      "pt": "Back-end",
+      "en": "Back-end"
+    },
     "tecnologias": [
-      { "nome": "C#", "icone": "/src/assets/skills/csharp.svg" },
-      { "nome": "Python", "icone": "/src/assets/skills/python.svg" }
+      { "nome": { "pt": "C#", "en": "C#" }, "icone": "/src/assets/skills/csharp.svg" },
+      { "nome": { "pt": "Python", "en": "Python" }, "icone": "/src/assets/skills/python.svg" }
     ]
   },
   {
-    "titulo": "Banco de Dados",
+    "titulo": {
+      "pt": "Banco de Dados",
+      "en": "Database"
+    },
     "tecnologias": [
-      { "nome": "MySQL", "icone": "/src/assets/skills/mysql.svg" }
+      { "nome": { "pt": "MySQL", "en": "MySQL" }, "icone": "/src/assets/skills/mysql.svg" }
     ]
   },
   {
-    "titulo": "Ferramentas",
+    "titulo": {
+      "pt": "Ferramentas",
+      "en": "Tools"
+    },
     "tecnologias": [
-      { "nome": "Git", "icone": "/src/assets/skills/git.svg" },
-      { "nome": "GitHub", "icone": "/src/assets/skills/github.svg" },
-      { "nome": "VS Code", "icone": "/src/assets/skills/vscode.svg" }
+      { "nome": { "pt": "Git", "en": "Git" }, "icone": "/src/assets/skills/git.svg" },
+      { "nome": { "pt": "GitHub", "en": "GitHub" }, "icone": "/src/assets/skills/github.svg" },
+      { "nome": { "pt": "VS Code", "en": "VS Code" }, "icone": "/src/assets/skills/vscode.svg" }
     ]
   }
 ]

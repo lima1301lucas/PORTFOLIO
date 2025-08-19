@@ -1,9 +1,11 @@
 import {useNavigate, useLocation} from 'react-router-dom';
-import Header from '../Header/Header';
+import { useLanguage } from "../../context/LanguageContext";
 import {scrollToSection} from '../../hooks/useHeaderControls';
+import Header from '../Header/Header';
 import './Menu.scss';
 
 function Menu() {
+  const { language } = useLanguage();
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -23,12 +25,12 @@ function Menu() {
       <nav className="menu">
         <Header />
           <ul className="menu-nav">
-            <li onClick={() => handleScroll('apresentacao')}><span>HOME</span></li>
-            <li onClick={() => handleScroll('sobre')}><span>SOBRE MIM</span></li>
-            <li onClick={() => handleScroll('experiencias')}><span>EXPERIÊNCIAS</span></li>
-            <li><span>HABILIDADES</span></li>
-            <li><span>PROJETOS</span></li>
-            <li><span>CONTATO</span></li>
+            <li onClick={() => handleScroll('apresentacao')}><span>{language === "pt" ? "HOME" : "HOME"}</span></li>
+            <li onClick={() => handleScroll('sobre')}><span>{language === "pt" ? "SOBRE MIM" : "ABOUT ME"}</span></li>
+            <li onClick={() => handleScroll('experiencias')}><span>{language === "pt" ? "EXPERIÊNCIAS" : "EXPERIENCES"}</span></li>
+            <li onClick={() => handleScroll('habilidades')}><span>{language === "pt" ? "HABILIDADES" : "SKILLS"}</span></li>
+            <li onClick={() => handleScroll('projetos')}><span>{language === "pt" ? "PROJETOS" : "PROJECTS"}</span></li>
+            <li onClick={() => handleScroll('contato')}><span>{language === "pt" ? "CONTATO" : "CONTACT"}</span></li>
           </ul>
           <div className="menu-social">
             <a className="icon linkedin" href="https://www.linkedin.com/in/lucas-lima-1301/" target="_blank" rel="noopener noreferrer"></a>
