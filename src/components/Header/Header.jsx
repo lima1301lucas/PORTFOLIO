@@ -20,9 +20,7 @@ function Header() {
     <header>
       <div className="container">
         <div className="header-content">
-          <div className="logo">
-            <img src="/src/assets/logo.svg" alt="Logo" />
-          </div>
+          <div className="logo"></div>
           <div className="buttons">
             <button onClick={toggleLanguage} className="lang-btn"><p>{language === "pt" ? "EN" : "PT"}</p></button>
             <button onClick={toggleTheme} aria-label="Toggle theme" className="theme-btn" />
