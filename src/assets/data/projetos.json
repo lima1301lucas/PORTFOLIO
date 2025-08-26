@@ -141,14 +141,14 @@
           "pt": "Ver Projeto",
           "en": "See Project"
         },
-        "url": "https://filmfinder-nine.vercel.app/"
+        "url": "https://weather-city-ten.vercel.app/"
       },
       {
         "nome": {
           "pt": "Ver Repositório",
           "en": "See Repository"
         },
-        "url": "https://github.com/lima1301lucas/FILM_FINDER"
+        "url": "https://github.com/lima1301lucas/WEATHER-CITY"
       }
     ]
   },

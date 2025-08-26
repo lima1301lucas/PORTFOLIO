@@ -19,7 +19,6 @@
       { "nome": { "pt": "CSS3", "en": "CSS3" }, "icone": "/skills/css.svg" },
       { "nome": { "pt": "JavaScript", "en": "JavaScript" }, "icone": "/skills/javascript.svg" },
       { "nome": { "pt": "React", "en": "React" }, "icone": "/skills/react.svg" },
-      { "nome": { "pt": "Node.js", "en": "Node.js" }, "icone": "/skills/nodejs.svg" },
       { "nome": { "pt": "Sass", "en": "Sass" }, "icone": "/skills/sass.svg" },
       { "nome": { "pt": "Bootstrap", "en": "Bootstrap" }, "icone": "/skills/bootstrap.svg" }
     ]
@@ -51,7 +50,8 @@
     "tecnologias": [
       { "nome": { "pt": "Git", "en": "Git" }, "icone": "/skills/git.svg" },
       { "nome": { "pt": "GitHub", "en": "GitHub" }, "icone": "/skills/github.svg" },
-      { "nome": { "pt": "VS Code", "en": "VS Code" }, "icone": "/skills/vscode.svg" }
+      { "nome": { "pt": "NPM", "en": "NPM" }, "icone": "/skills/npm.svg" },
+      { "nome": { "pt": "Vite", "en": "Vite" }, "icone": "/skills/vite.svg" }
     ]
   }
 ]
