@@ -1,4 +1,5 @@
 @import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .apresentacao-content{
     width: 75vw;
@@ -18,13 +19,21 @@
   justify-content: center;
   gap: $spacing-base * 2;
 
+  @include notebook {
+    height: 85%;
+  }
+
   h1 {
     font-size: 4rem;
     line-height: 1.2;
     font-weight: 700;
 
-    .highlight {
-      color: $primary-blue;
+    .highlight { 
+      color: $primary-blue; 
+    }
+
+    @include notebook {
+      font-size: 3rem;
     }
   }
 
@@ -99,6 +108,10 @@
   display: flex;
   justify-content: left;
   align-items: start;
+
+  @include notebook {
+    height: 85%;
+  }
 
   .foto-animada {
     width: 70%;
