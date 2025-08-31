@@ -1,4 +1,5 @@
 @import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .menu {
   display: flex;
@@ -30,6 +31,10 @@
   font-size: 4em;
   font-weight: bold;
   color: $gray-tone-200; 
+
+  @include notebook{
+    font-size: 3em;
+  }
 }
 
 .menu-nav li span {
@@ -48,6 +53,10 @@
   justify-content: center;
   gap: 1.5rem;
   margin-bottom: 2rem;
+
+  @include notebook{
+    margin: 2rem;
+  }
 }
 
 .icon {
@@ -58,6 +67,11 @@
   display: inline-block;
   cursor: pointer;
   transition: transform 0.3s ease;
+
+  @include notebook{
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .icon:hover {
