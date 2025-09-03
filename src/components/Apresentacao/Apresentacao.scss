@@ -2,12 +2,23 @@
 @import '../../styles/mixins.scss';
 
 .apresentacao-content{
-    width: 75vw;
-    height: 80vh;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap; 
-    align-content: flex-start;
+  width: 75vw;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; 
+  align-content: flex-start;
+
+  @include tablet {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  @include mobile{
+    height: 86vh;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
 }
 
 .apresentacao-left {
@@ -23,10 +34,39 @@
     height: 85%;
   }
 
+  @include tablet {
+    width: 100%;
+    height: 40%;
+    order: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @include mobile {
+    width: 100%;
+    height: 50%;
+    order: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
   h1 {
     font-size: 4rem;
     line-height: 1.2;
     font-weight: 700;
+
+    @include tablet{
+      font-size: 3rem;
+      text-align: center;
+    }
+
+    @include mobile{
+      font-size: 2.5rem;
+      line-height: 1.2;
+      text-align: center;
+      word-break: break-word;
+      white-space: normal;
+    }
 
     .highlight { 
       color: $primary-blue; 
@@ -77,6 +117,11 @@
       background-position: center;
       cursor: pointer;
 
+      @include mobile{
+        width: 35px;
+        height: 35px;
+      }
+
       &.icon-linkedin {
         background-image: url('/src/assets/icons/light/linkedin-gray.svg'); 
       }
@@ -113,6 +158,22 @@
     height: 85%;
   }
 
+  @include tablet {
+    width: 100%;
+    height: 55%;
+    order: 2;
+    align-items: center;
+    justify-content: center;
+  }
+
+  @include mobile {
+    width: 100%;
+    height: 45%;
+    order: 2;
+    align-items: center;
+    justify-content: center;
+  }
+
   .foto-animada {
     width: 70%;
     height: 90%;
@@ -121,18 +182,41 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 250px;
+
+    @include tablet{
+      width: 70%;
+      height: 100%;
+      border-radius: 150px;
+    }
+
+    @include mobile{
+      width: 70%;
+      height: 100%;
+      border-radius: 100px;
+    }
   }
 }
 
 .scroll-indicator{
     width: 100%;
     height: 10%;
-
     display: flex;
     flex-direction: column; 
     justify-content: end; 
     align-items: center; 
     gap: 0.25rem; 
+
+    @include tablet {
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 5%;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      justify-content: flex-start;
+      height: 5%;
+    }
 
   .icon-mouse {
     width: 16px;

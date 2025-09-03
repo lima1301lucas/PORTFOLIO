@@ -16,13 +16,11 @@ function Apresentacao() {
               <h1>
                 {language === "pt" ? (
                   <>
-                    Olá, meu nome é <span className="highlight">Lucas!</span> Sou<br />
-                    desenvolvedor front-end...
+                    Olá, meu nome é <span className="highlight">Lucas!</span>&nbsp;Sou <br />desenvolvedor front-end...
                   </>
                 ) : (
                   <>
-                    Hi, my name is <span className="highlight">Lucas!</span> I'm a<br />
-                    front-end developer...
+                    Hi, my name is <span className="highlight">Lucas!</span><br />I'm a front-end developer...
                   </>
                 )}
               </h1>

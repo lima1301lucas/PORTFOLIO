@@ -35,6 +35,10 @@
   @include notebook{
     font-size: 3em;
   }
+
+  @include mobile{
+    font-size: 3em;
+  }
 }
 
 .menu-nav li span {
@@ -69,6 +73,11 @@
   transition: transform 0.3s ease;
 
   @include notebook{
+    width: 40px;
+    height: 40px;
+  }
+
+  @include mobile{
     width: 40px;
     height: 40px;
   }

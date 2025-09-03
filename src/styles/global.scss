@@ -29,4 +29,8 @@ body.dark {
   margin: 0 auto;
   padding: 1.5rem 3rem;
   box-sizing: border-box;
+
+  @include mobile{
+    padding: 1rem 0;
+  }
 }
