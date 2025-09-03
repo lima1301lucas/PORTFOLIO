@@ -61,6 +61,10 @@
   @include notebook{
     margin: 2rem;
   }
+
+  @include mobile{
+    margin: 2rem;
+  }
 }
 
 .icon {

@@ -1,12 +1,17 @@
 @import '../../styles/variables.scss';
+@import '../../styles/mixins.scss';
 
 .contato-content{
-    width: 75vw;
-    height: auto;
-    margin: 1rem auto;
-    display: flex;
-    flex-wrap: wrap; 
-    align-content: flex-start;
+  width: 75vw;
+  height: auto;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap; 
+  align-content: flex-start;
+
+  @include mobile{
+    width: 90vw;
+  }
 }
 
 .title{
@@ -39,6 +44,11 @@
   box-shadow: 1px 2px 5px 0 rgba($gray-tone-500, 0.25);
   min-width: 300px;
   max-width: 350px;
+
+  @include mobile{
+    width: 90vw;
+    justify-content: center;
+  }
 
   .card-left {
     width: 60px;
