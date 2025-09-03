@@ -76,7 +76,7 @@
   }
 }
 
-.left {
+.modal-content-left {
   width: 35%;
   height: 100%;
 
@@ -102,7 +102,7 @@
   flex-direction: column;
 }
 
-.right{
+.modal-content-right{
   width: 65%;
   height: 100%;
   padding-left: 2rem;
@@ -308,7 +308,7 @@ body.dark{
     background-color: $black;
   }
   
-  .right{  
+  .modal-content-right{  
     .modal-titulo{
       h1{
         color: $gray-tone-100;

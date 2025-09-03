@@ -8,10 +8,10 @@ function Projeto({ projeto, onClose, language }) {
           <button className="close-modal-btn" onClick={onClose}></button>
         </div>
         <div className="modal-content">
-          <div className="left">
+          <div className="modal-content-left">
             <img src={projeto.foto} alt={projeto.titulo[language]} />
           </div>
-          <div className="right">
+          <div className="modal-content-right">
             <div className="modal-main">
               <div className="modal-titulo">
                 <h1>{projeto.titulo[language]}</h1>
